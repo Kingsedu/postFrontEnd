@@ -4,7 +4,7 @@ import classes from "./Post.module.css";
 import Modal from "../Modal";
 import { PostListProps } from "../../..";
 import { useState } from "react";
-
+// ? this is the typescript of the PostData
 type PostData = {
     body: string;
     author: string
